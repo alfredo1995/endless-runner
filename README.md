@@ -17,7 +17,7 @@ Principais Conceitos e Habilidades
         Obter largura collider
         Comunicação de script
         Tags / CompareTag()
-        
+         
         Controladores de animação
         Estados de animação, camadas e transições 
         Parâmetros de animação
