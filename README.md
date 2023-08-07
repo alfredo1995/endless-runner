@@ -8,7 +8,7 @@ Principais Conceitos e Habilidades
         GetComponent 
         ForceMode.Impulse 
         Física.Gravidade
-        Variáveis rigidbody
+        Variáveis rigidbody 
         Multiplicar/Atribuir ("*) Operador
         E (&&) Operador / Igual a (==) operador /  Não (!) operador
  
