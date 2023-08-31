@@ -10,7 +10,7 @@ Principais Conceitos e Habilidades
         Física.Gravidade 
         Variáveis rigidbody 
         Multiplicar/Atribuir ("*) Operador
-        E (&&) Operador / Igual a (==) operador /  Não (!) operador
+        E (&&) Operador / Igual a (==) operador /  Não (!) operador 
  
         OnCollisionEnter()
         Repetir o plano de fundo
