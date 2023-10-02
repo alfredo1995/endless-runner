@@ -1,60 +1,59 @@
 # corrida-infinita-unity
 
-Programando um jogo estilo ENDLESS RUNNER (corrida infinita), onde o jogador precisa de saltar sobre obstáculos que se aproximam para evitar bater. 
+Programming an ENDLESS RUNNER style game, where the player needs to jump over approaching obstacles to avoid crashing.
 
+Main Concepts and Skills
 
-Principais Conceitos e Habilidades
-
-        GetComponent 
-        ForceMode.Impulse 
-        Física.Gravidade 
-        Variáveis rigidbody 
-        Multiplicar/Atribuir ("*) Operador
-        E (&&) Operador / Igual a (==) operador /  Não (!) operador 
+         GetComponent 
+         ForceMode.Impulse 
+         Física.Gravidade 
+         Rigidbody variables
+         Multiply/Assign ("*) Operator
+         AND (&&) Operator / Equals (==) operator / Not (!) operator
   
-        OnCollisionEnter()
-        Repetir o plano de fundo
-        Obter largura collider
-        Comunicação de script
-        Tags / CompareTag()
+         OnCollisionEnter()
+         Repeat background
+         Get collider width
+         Script communication
+         Tags / CompareTag()
          
-        Controladores de animação
-        Estados de animação, camadas e transições 
-        Parâmetros de animação
-        Programação de animação
-        SetTrigger(), SetBool(), SetInt()
+         Animation controllers
+         Animation states, layers and transitions
+         Animation parameters
+         Animation programming
+         SetTrigger(), SetBool(), SetInt()
         
-        Sistemas de partículas 
-        Clipes de áudio e fontes de áudio 
-        Reproduzir e parar os efeitos sonoros
+         Particle systems
+         Audio clips and audio sources
+         Play and stop sound effects
 <br>
  
-Protótipo
+Prototype
 
         https://connect-prd-cdn.unity.com/20210507/12fe5762-ea5d-48ce-aff7-71c3dd0ec6a0/Prototype%203%20-%20Starter%20Files.zip
 
-Abrir protótipo e alterar fundo
+Open prototype and change background
 
-        1) Abra o Unity Hub e crie um projeto vazio de "Protótipo 3" em seu diretório de curso na versão unity correta.
+         1) Open Unity Hub and create an empty "Prototype 3" project in your course directory in the correct unity version.
         
-        2) Clique para baixar o Protótipo 3 Starter Files, extrair a pasta compactada e, em seguida, importar o .unitypackage em seu projeto. 
+         2) Click to download the Prototype 3 Starter Files, extract the zipped folder, and then import the .unitypackage into your project.
          
-        3) Abra a cena do Protótipo 3 e exclua a Cena da Amostra sem salvar
+         3) Open the Prototype 3 scene and delete the Sample Scene without saving
         
-        4) Selecione o objeto De fundo na hierarquia e, em seguida, no  componente Sprite Renderer > Sprite, selecione a imagem _City, _Nature ou _Town
+         4) Select the Background object in the hierarchy, and then in the Sprite Renderer > Sprite component, select the _City, _Nature, or _Town image
 
-Escolha e configure um personagem do jogador
+Choose and configure a player character
 
-        1) Da Biblioteca de Curso > Personagens, Arraste um personagem para a hierarquia, renomeie-o  "Jogador", 
-           em seguida, gire-o no eixo Y para enfrentar à direita
+        1) From the Course Library > Characters, Drag a character into the hierarchy, rename it "Player",
+            then rotate it on the Y axis to face right
            
-        2) Adicione um  componente do corpo RigBody     
+         2) Add a RigBody body component
         
-        3) Adicione um colisor de caixa e, em seguida, edite os limites do colisor
+         3) Add a box collider and then edit the collider boundaries
         
-        4) Crie uma nova pasta "Scripts" em Ativos, crie um script "PlayerController" dentro e conecte-o ao jogador
+         4) Create a new "Scripts" folder under Assets, create a "PlayerController" script inside and connect it to the player
         
-Faça o jogador saltar no início
+Make the player jump at the start
 
         1) No PlayerController.cs, declare um novo playerrb rígido privado;  variável
         
