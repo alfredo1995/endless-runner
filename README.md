@@ -1,8 +1,6 @@
-# corrida-infinita-unity
+# Programando um jogo estilo ENDLESS RUNNER (corrida infinita), onde o jogador precisa de saltar sobre obstáculos que se aproximam para evitar bater. 
 
-Programando um jogo estilo ENDLESS RUNNER (corrida infinita), onde o jogador precisa de saltar sobre obstáculos que se aproximam para evitar bater. 
-
-
+ 
 Principais Conceitos e Habilidades
 
         GetComponent 
