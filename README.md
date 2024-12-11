@@ -2,7 +2,7 @@
 
  
 Principais Conceitos e Habilidades
-
+ 
         GetComponent 
         ForceMode.Impulse 
         Física.Gravidade 
