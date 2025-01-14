@@ -7,7 +7,7 @@ Principais Conceitos e Habilidades
         ForceMode.Impulse 
         Física.Gravidade 
         Variáveis rigidbody 
-        Multiplicar/Atribuir ("*) Operador
+        Multiplicar/Atribuir ("*) Operador 
         E (&&) Operador / Igual a (==) operador /  Não (!) operador 
   
         OnCollisionEnter()
